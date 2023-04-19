@@ -1,0 +1,80 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 5px;
+    margin: 1px;
+    background-color: grey;
+    display:grid;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.name{
+    align-items: center;
+    justify-items: center;
+    background: red;
+}
+
+.top{
+text-align: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#rock {
+    box-shadow: 0px 0px 15px 2px;
+    border-radius: 15px;
+    background: url('IMG/Rock.png');
+    background-size: 100px 100px;
+    height: 100px;
+    width: 100px;
+}
+
+
+#rock:active {
+    box-shadow: 0px 0px 8px 2px;
+    transition: .1s;
+    background: url('IMG/Rock.png')rgba(100,100,100,.1);
+    background-size: 98px 98px;
+    height: 98px;
+    width: 98px;
+}
+
+#paper {
+    box-shadow: 0px 0px 15px 2px;
+    border-radius: 15px;
+    background: url('IMG/Paper.png');
+    transform: rotate(90deg);
+    background-size: 100px 100px;
+    height: 100px;
+    width: 100px;
+}
+
+#paper:active {
+    box-shadow: 0px 0px 8px 2px;
+    transition: .1s;
+    background: url('IMG/Paper.png')rgba(100,100,100,.1);
+    background-size: 98px 98px;
+    height: 98px;
+    width: 98px;
+}
+
+#scissors {
+    box-shadow: 0px 0px 15px 2px;
+    border-radius: 15px;
+    background: url('IMG/Scissors.png');
+    background-size: 100px 100px;
+    height: 100px;
+    width: 100px;
+}
+
+#scissors:active {
+    box-shadow: 0px 0px 8px 2px;
+    transition: .1s;
+    background: url('IMG/Scissors.png')rgba(100,100,100,.1);
+    background-size: 98px 98px;
+    height: 98px;
+    width: 98px;
+}
